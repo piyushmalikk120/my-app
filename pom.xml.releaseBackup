@@ -5,7 +5,7 @@
 
   <groupId>com.mycompany.app</groupId>
   <artifactId>my-app</artifactId>
-  <version>1.2-SNAPSHOT</version>
+  <version>1.1-SNAPSHOT</version>
   
   <scm>
 		<url>https://github.com/piyushmalikk120/my-app</url>
@@ -41,7 +41,7 @@
 				<artifactId>maven-release-plugin</artifactId>
 				<version>3.0.0-M1</version>
 				<configuration>
-				    <tag>v${project.version}</tag>
+				    <tag>v${releaseVersion}</tag>
 					<tagNameFormat>v@{project.version}</tagNameFormat>
 					<autoVersionSubmodules>true</autoVersionSubmodules>
 					<!-- releaseProfiles configuration will actually force a Maven profile 
