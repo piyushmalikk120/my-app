@@ -8,8 +8,8 @@
   <version>1.0</version>
   
   <scm>
-		<url>https://github.com/piyushmalikk120/maven-release-plugin-example</url>
-		<developerConnection>scm:git:https://github.com/piyushmalikk120/maven-release-plugin-example.git</developerConnection>
+		<url>https://github.com/piyushmalikk120/my-app</url>
+		<developerConnection>scm:git:https://github.com/piyushmalikk120/my-app.git</developerConnection>
       <tag>v${releaseVersion}</tag>
   </scm>
 
